@@ -7,16 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394C8FBB61C3BC4202F55914 /* libPods-MultipleTargetA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C80F793047A42DE9632E4B27 /* libPods-MultipleTargetA.a */; };
 		397CEA5A2175F72800411B66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397CEA592175F72800411B66 /* AppDelegate.m */; };
 		397CEA5D2175F72800411B66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397CEA5C2175F72800411B66 /* ViewController.m */; };
 		397CEA602175F72800411B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA5E2175F72800411B66 /* Main.storyboard */; };
 		397CEA622175F72C00411B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA612175F72C00411B66 /* Assets.xcassets */; };
 		397CEA652175F72C00411B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA632175F72C00411B66 /* LaunchScreen.storyboard */; };
 		397CEA682175F72C00411B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397CEA672175F72C00411B66 /* main.m */; };
+		397CEA702175F75500411B66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397CEA5C2175F72800411B66 /* ViewController.m */; };
+		397CEA712175F75500411B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397CEA672175F72C00411B66 /* main.m */; };
+		397CEA722175F75500411B66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397CEA592175F72800411B66 /* AppDelegate.m */; };
+		397CEA752175F75500411B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA632175F72C00411B66 /* LaunchScreen.storyboard */; };
+		397CEA762175F75500411B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA612175F72C00411B66 /* Assets.xcassets */; };
+		397CEA772175F75500411B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA5E2175F72800411B66 /* Main.storyboard */; };
+		397CEA7F2175F76200411B66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397CEA5C2175F72800411B66 /* ViewController.m */; };
+		397CEA802175F76200411B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397CEA672175F72C00411B66 /* main.m */; };
+		397CEA812175F76200411B66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397CEA592175F72800411B66 /* AppDelegate.m */; };
+		397CEA842175F76200411B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA632175F72C00411B66 /* LaunchScreen.storyboard */; };
+		397CEA852175F76200411B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA612175F72C00411B66 /* Assets.xcassets */; };
+		397CEA862175F76200411B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA5E2175F72800411B66 /* Main.storyboard */; };
+		397CEA912175F7E900411B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA902175F7E900411B66 /* Assets.xcassets */; };
+		397CEA932175F7F600411B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA922175F7F600411B66 /* Assets.xcassets */; };
+		397CEA952175F80400411B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA942175F80400411B66 /* Assets.xcassets */; };
+		397CEA972175FF5200411B66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA962175FF5200411B66 /* Default-568h@2x.png */; };
+		397CEA982175FF6700411B66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 397CEA962175FF5200411B66 /* Default-568h@2x.png */; };
+		7FE4B1F6BDE14BE8C849BD5E /* libPods-MultipleTargetB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EACF3B057EBA73E16252F1C4 /* libPods-MultipleTargetB.a */; };
+		8AEBC3E64F1174F9AC734257 /* libPods-MultipleTargetC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7994F8FB0057E6F43EEA837 /* libPods-MultipleTargetC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		397CEA552175F72800411B66 /* MultipleTargetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleTargetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		397CEA552175F72800411B66 /* MultipleTargetA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleTargetA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		397CEA582175F72800411B66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		397CEA592175F72800411B66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		397CEA5B2175F72800411B66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -26,6 +46,23 @@
 		397CEA642175F72C00411B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		397CEA662175F72C00411B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397CEA672175F72C00411B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		397CEA7B2175F75500411B66 /* MultipleTargetB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleTargetB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		397CEA7C2175F75500411B66 /* MultipleTargetB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MultipleTargetB-Info.plist"; path = "/Users/lvtang/Documents/IOSProjects/MultipleTargetTest/MultipleTargetB-Info.plist"; sourceTree = "<absolute>"; };
+		397CEA8A2175F76200411B66 /* MultipleTargetC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleTargetC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		397CEA8B2175F76200411B66 /* MultipleTargetC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MultipleTargetC-Info.plist"; path = "/Users/lvtang/Documents/IOSProjects/MultipleTargetTest/MultipleTargetC-Info.plist"; sourceTree = "<absolute>"; };
+		397CEA902175F7E900411B66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		397CEA922175F7F600411B66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		397CEA942175F80400411B66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		397CEA962175FF5200411B66 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3EC8836DA010D96E96ED98FB /* Pods-MultipleTargetB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleTargetB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleTargetB/Pods-MultipleTargetB.debug.xcconfig"; sourceTree = "<group>"; };
+		7E19CDBB45D194F636908DED /* Pods-MultipleTargetC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleTargetC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleTargetC/Pods-MultipleTargetC.debug.xcconfig"; sourceTree = "<group>"; };
+		A35CD13994FB0B09C91ADB5D /* Pods-MultipleTargetA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleTargetA.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleTargetA/Pods-MultipleTargetA.release.xcconfig"; sourceTree = "<group>"; };
+		C80F793047A42DE9632E4B27 /* libPods-MultipleTargetA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultipleTargetA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7994F8FB0057E6F43EEA837 /* libPods-MultipleTargetC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultipleTargetC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41A5B833D53E890C4D47DF2 /* Pods-MultipleTargetA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleTargetA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleTargetA/Pods-MultipleTargetA.debug.xcconfig"; sourceTree = "<group>"; };
+		E71C4CB66D92E907A047C98C /* Pods-MultipleTargetB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleTargetB.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleTargetB/Pods-MultipleTargetB.release.xcconfig"; sourceTree = "<group>"; };
+		EACF3B057EBA73E16252F1C4 /* libPods-MultipleTargetB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultipleTargetB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16FBD417F0F0D7D1CEF3421 /* Pods-MultipleTargetC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleTargetC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleTargetC/Pods-MultipleTargetC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,24 +70,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394C8FBB61C3BC4202F55914 /* libPods-MultipleTargetA.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397CEA732175F75500411B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE4B1F6BDE14BE8C849BD5E /* libPods-MultipleTargetB.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397CEA822175F76200411B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEBC3E64F1174F9AC734257 /* libPods-MultipleTargetC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1930D73C563F691476211036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C80F793047A42DE9632E4B27 /* libPods-MultipleTargetA.a */,
+				EACF3B057EBA73E16252F1C4 /* libPods-MultipleTargetB.a */,
+				D7994F8FB0057E6F43EEA837 /* libPods-MultipleTargetC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		397CEA4C2175F72800411B66 = {
 			isa = PBXGroup;
 			children = (
+				397CEA962175FF5200411B66 /* Default-568h@2x.png */,
 				397CEA572175F72800411B66 /* MultipleTargetTest */,
 				397CEA562175F72800411B66 /* Products */,
+				397CEA7C2175F75500411B66 /* MultipleTargetB-Info.plist */,
+				397CEA8B2175F76200411B66 /* MultipleTargetC-Info.plist */,
+				8249B1E19FA82E73CD640C21 /* Pods */,
+				1930D73C563F691476211036 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		397CEA562175F72800411B66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				397CEA552175F72800411B66 /* MultipleTargetTest.app */,
+				397CEA552175F72800411B66 /* MultipleTargetA.app */,
+				397CEA7B2175F75500411B66 /* MultipleTargetB.app */,
+				397CEA8A2175F76200411B66 /* MultipleTargetC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +129,7 @@
 		397CEA572175F72800411B66 /* MultipleTargetTest */ = {
 			isa = PBXGroup;
 			children = (
+				397CEA8C2175F78B00411B66 /* Config */,
 				397CEA582175F72800411B66 /* AppDelegate.h */,
 				397CEA592175F72800411B66 /* AppDelegate.m */,
 				397CEA5B2175F72800411B66 /* ViewController.h */,
@@ -71,24 +143,114 @@
 			path = MultipleTargetTest;
 			sourceTree = "<group>";
 		};
+		397CEA8C2175F78B00411B66 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				397CEA8F2175F7A900411B66 /* targetC */,
+				397CEA8E2175F7A300411B66 /* targetB */,
+				397CEA8D2175F79300411B66 /* targetA */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		397CEA8D2175F79300411B66 /* targetA */ = {
+			isa = PBXGroup;
+			children = (
+				397CEA902175F7E900411B66 /* Assets.xcassets */,
+			);
+			path = targetA;
+			sourceTree = "<group>";
+		};
+		397CEA8E2175F7A300411B66 /* targetB */ = {
+			isa = PBXGroup;
+			children = (
+				397CEA922175F7F600411B66 /* Assets.xcassets */,
+			);
+			path = targetB;
+			sourceTree = "<group>";
+		};
+		397CEA8F2175F7A900411B66 /* targetC */ = {
+			isa = PBXGroup;
+			children = (
+				397CEA942175F80400411B66 /* Assets.xcassets */,
+			);
+			path = targetC;
+			sourceTree = "<group>";
+		};
+		8249B1E19FA82E73CD640C21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E41A5B833D53E890C4D47DF2 /* Pods-MultipleTargetA.debug.xcconfig */,
+				A35CD13994FB0B09C91ADB5D /* Pods-MultipleTargetA.release.xcconfig */,
+				3EC8836DA010D96E96ED98FB /* Pods-MultipleTargetB.debug.xcconfig */,
+				E71C4CB66D92E907A047C98C /* Pods-MultipleTargetB.release.xcconfig */,
+				7E19CDBB45D194F636908DED /* Pods-MultipleTargetC.debug.xcconfig */,
+				F16FBD417F0F0D7D1CEF3421 /* Pods-MultipleTargetC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		397CEA542175F72800411B66 /* MultipleTargetTest */ = {
+		397CEA542175F72800411B66 /* MultipleTargetA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 397CEA6B2175F72C00411B66 /* Build configuration list for PBXNativeTarget "MultipleTargetTest" */;
+			buildConfigurationList = 397CEA6B2175F72C00411B66 /* Build configuration list for PBXNativeTarget "MultipleTargetA" */;
 			buildPhases = (
+				8DBA006D8A5257DACBF25305 /* [CP] Check Pods Manifest.lock */,
 				397CEA512175F72800411B66 /* Sources */,
 				397CEA522175F72800411B66 /* Frameworks */,
 				397CEA532175F72800411B66 /* Resources */,
+				231C63EA3CCFF662F5B01E4F /* [CP] Embed Pods Frameworks */,
+				D28E780B6E2D5B7901C660E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MultipleTargetTest;
+			name = MultipleTargetA;
 			productName = MultipleTargetTest;
-			productReference = 397CEA552175F72800411B66 /* MultipleTargetTest.app */;
+			productReference = 397CEA552175F72800411B66 /* MultipleTargetA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		397CEA6E2175F75500411B66 /* MultipleTargetB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397CEA782175F75500411B66 /* Build configuration list for PBXNativeTarget "MultipleTargetB" */;
+			buildPhases = (
+				5096A0337AF090C0C22BC832 /* [CP] Check Pods Manifest.lock */,
+				397CEA6F2175F75500411B66 /* Sources */,
+				397CEA732175F75500411B66 /* Frameworks */,
+				397CEA742175F75500411B66 /* Resources */,
+				C2253A77F4CA9B3A776B504B /* [CP] Embed Pods Frameworks */,
+				658406AE1F45B8988B751954 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleTargetB;
+			productName = MultipleTargetTest;
+			productReference = 397CEA7B2175F75500411B66 /* MultipleTargetB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		397CEA7D2175F76200411B66 /* MultipleTargetC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397CEA872175F76200411B66 /* Build configuration list for PBXNativeTarget "MultipleTargetC" */;
+			buildPhases = (
+				D3DFDCD69AEBF8E532AB9332 /* [CP] Check Pods Manifest.lock */,
+				397CEA7E2175F76200411B66 /* Sources */,
+				397CEA822175F76200411B66 /* Frameworks */,
+				397CEA832175F76200411B66 /* Resources */,
+				A288B89FB2CE34CE9ACCD06C /* [CP] Embed Pods Frameworks */,
+				06022E7C40FE3A9B44B501AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleTargetC;
+			productName = MultipleTargetTest;
+			productReference = 397CEA8A2175F76200411B66 /* MultipleTargetC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +280,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				397CEA542175F72800411B66 /* MultipleTargetTest */,
+				397CEA542175F72800411B66 /* MultipleTargetA */,
+				397CEA6E2175F75500411B66 /* MultipleTargetB */,
+				397CEA7D2175F76200411B66 /* MultipleTargetC */,
 			);
 		};
 /* End PBXProject section */
@@ -130,11 +294,390 @@
 			files = (
 				397CEA652175F72C00411B66 /* LaunchScreen.storyboard in Resources */,
 				397CEA622175F72C00411B66 /* Assets.xcassets in Resources */,
+				397CEA912175F7E900411B66 /* Assets.xcassets in Resources */,
 				397CEA602175F72800411B66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		397CEA742175F75500411B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397CEA752175F75500411B66 /* LaunchScreen.storyboard in Resources */,
+				397CEA762175F75500411B66 /* Assets.xcassets in Resources */,
+				397CEA932175F7F600411B66 /* Assets.xcassets in Resources */,
+				397CEA972175FF5200411B66 /* Default-568h@2x.png in Resources */,
+				397CEA772175F75500411B66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397CEA832175F76200411B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397CEA842175F76200411B66 /* LaunchScreen.storyboard in Resources */,
+				397CEA852175F76200411B66 /* Assets.xcassets in Resources */,
+				397CEA952175F80400411B66 /* Assets.xcassets in Resources */,
+				397CEA982175FF6700411B66 /* Default-568h@2x.png in Resources */,
+				397CEA862175F76200411B66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06022E7C40FE3A9B44B501AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MultipleTargetC/Pods-MultipleTargetC-resources.sh",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-FACESCREENSHOT@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-FACESCREENSHOT@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowImages.xcassets",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowSDKLocalization.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-FACESCREENSHOT@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-FACESCREENSHOT@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowImages.xcassets",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowSDKLocalization.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleTargetC/Pods-MultipleTargetC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		231C63EA3CCFF662F5B01E4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleTargetA/Pods-MultipleTargetA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5096A0337AF090C0C22BC832 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultipleTargetB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		658406AE1F45B8988B751954 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MultipleTargetB/Pods-MultipleTargetB-resources.sh",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-FACESCREENSHOT@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-FACESCREENSHOT@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowImages.xcassets",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowSDKLocalization.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-FACESCREENSHOT@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-FACESCREENSHOT@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowImages.xcassets",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowSDKLocalization.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleTargetB/Pods-MultipleTargetB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DBA006D8A5257DACBF25305 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultipleTargetA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A288B89FB2CE34CE9ACCD06C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleTargetC/Pods-MultipleTargetC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2253A77F4CA9B3A776B504B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleTargetB/Pods-MultipleTargetB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D28E780B6E2D5B7901C660E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MultipleTargetA/Pods-MultipleTargetA-resources.sh",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-FACESCREENSHOT@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-FACESCREENSHOT@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowImages.xcassets",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowSDKLocalization.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-FACESCREENSHOT@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-FACESCREENSHOT@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowImages.xcassets",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowSDKLocalization.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleTargetA/Pods-MultipleTargetA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3DFDCD69AEBF8E532AB9332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultipleTargetC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		397CEA512175F72800411B66 /* Sources */ = {
@@ -144,6 +687,26 @@
 				397CEA5D2175F72800411B66 /* ViewController.m in Sources */,
 				397CEA682175F72C00411B66 /* main.m in Sources */,
 				397CEA5A2175F72800411B66 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397CEA6F2175F75500411B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397CEA702175F75500411B66 /* ViewController.m in Sources */,
+				397CEA712175F75500411B66 /* main.m in Sources */,
+				397CEA722175F75500411B66 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397CEA7E2175F76200411B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397CEA7F2175F76200411B66 /* ViewController.m in Sources */,
+				397CEA802175F76200411B66 /* main.m in Sources */,
+				397CEA812175F76200411B66 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +846,11 @@
 		};
 		397CEA6C2175F72C00411B66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41A5B833D53E890C4D47DF2 /* Pods-MultipleTargetA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XXW59J9ZR3;
 				INFOPLIST_FILE = MultipleTargetTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,15 +858,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.MultipleTargetTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Finform_Sunshine_Development;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		397CEA6D2175F72C00411B66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35CD13994FB0B09C91ADB5D /* Pods-MultipleTargetA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XXW59J9ZR3;
 				INFOPLIST_FILE = MultipleTargetTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +877,83 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.MultipleTargetTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Finform_Sunshine_Development;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		397CEA792175F75500411B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC8836DA010D96E96ED98FB /* Pods-MultipleTargetB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XXW59J9ZR3;
+				INFOPLIST_FILE = "MultipleTargetB-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MultipleTargetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Finform_Sunshine_Development;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		397CEA7A2175F75500411B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71C4CB66D92E907A047C98C /* Pods-MultipleTargetB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XXW59J9ZR3;
+				INFOPLIST_FILE = "MultipleTargetB-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MultipleTargetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Finform_Sunshine_Development;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		397CEA882175F76200411B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E19CDBB45D194F636908DED /* Pods-MultipleTargetC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XXW59J9ZR3;
+				INFOPLIST_FILE = "MultipleTargetC-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MultipleTargetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Finform_Sunshine_Development;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		397CEA892175F76200411B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16FBD417F0F0D7D1CEF3421 /* Pods-MultipleTargetC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XXW59J9ZR3;
+				INFOPLIST_FILE = "MultipleTargetC-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MultipleTargetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Finform_Sunshine_Development;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -325,11 +970,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		397CEA6B2175F72C00411B66 /* Build configuration list for PBXNativeTarget "MultipleTargetTest" */ = {
+		397CEA6B2175F72C00411B66 /* Build configuration list for PBXNativeTarget "MultipleTargetA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				397CEA6C2175F72C00411B66 /* Debug */,
 				397CEA6D2175F72C00411B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397CEA782175F75500411B66 /* Build configuration list for PBXNativeTarget "MultipleTargetB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397CEA792175F75500411B66 /* Debug */,
+				397CEA7A2175F75500411B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397CEA872175F76200411B66 /* Build configuration list for PBXNativeTarget "MultipleTargetC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397CEA882175F76200411B66 /* Debug */,
+				397CEA892175F76200411B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

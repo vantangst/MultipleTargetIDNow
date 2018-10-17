@@ -16,8 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _lblTitle.text = [self project_getAppName];
 }
 
+- (NSString*)project_getAppName {
+    return NSBundle.mainBundle.infoDictionary[@"CFBundleDisplayName"];
+}
 
 @end
