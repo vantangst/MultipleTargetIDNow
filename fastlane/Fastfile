@@ -1,0 +1,85 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  lane :IncreaseVersion do |options|
+    oldBuildNumber = get_build_number
+    oldVersionNumber = get_version_number(target: "MultipleTargetA")
+    puts "old build number: #{oldBuildNumber} old version #{oldVersionNumber}"
+    puts "parameter list #bump_type: major, minor, patch"
+    if !options[:bump_type].nil?
+      msgBumpType = "bump_type: " << options[:bump_type]
+      puts msgBumpType
+    end
+    if !options[:version_number].nil?
+      msgVersionNumber = "version_number: " << options[:version_number]
+      puts msgVersionNumber
+    end
+    if !options[:build_number].nil?
+      msgBuildNumber = "build_number: " << options[:build_number]
+      puts msgBuildNumber
+    end
+    #Increase version name
+    if options[:version_number].nil?
+      if options[:bump_type].nil?
+        puts "Default: Automatically increment patch version number"
+        increment_version_number # Automatically increment patch version number
+      else
+        msg = "Automatically increment options " << options[:bump_type] << " version number"
+        puts msg
+        increment_version_number(
+          bump_type: options[:bump_type] # Automatically increment patch version number
+        )
+      end
+    else
+      puts "Increase version number by: Set a specific version number"
+      increment_version_number(
+        version_number: options[:version_number] # Set a specific version number
+      )
+    end
+
+    #Increase build number
+    if options[:build_number].nil?
+      puts "Increase build number by default: automatically increment by one"
+      increment_build_number # automatically increment by one
+    else
+      puts "Increase build number: set a specific number"
+      increment_build_number(
+        build_number: options[:build_number] # set a specific number
+      )
+    end
+
+    # commit code to git
+    newBuildNumber = get_build_number
+    newVersionNumber = get_version_number(target: "MultipleTargetA")
+    puts "new build number: #{newBuildNumber} new version #{newVersionNumber}"
+    git_add
+    git_commit(path: ".", message: "Increase version to #{newVersionNumber}.#{newBuildNumber}")
+    push_to_git_remote(
+      remote: "origin",         # optional, default: "origin"
+      #local_branch: "develop",  # optional, aliased by "branch", default: "master"
+      remote_branch: "master", # optional, default is set to local_branch
+      #force: true,    # optional, default: false
+      #force_with_lease: true,   # optional, default: false
+      tags: false     # optional, default: true
+    )
+    add_git_tag(
+      tag: "#{newVersionNumber}.#{newBuildNumber}"
+    )
+    push_git_tags
+  end
+end

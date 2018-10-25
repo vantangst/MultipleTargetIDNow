@@ -27,6 +27,14 @@ DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - IDnowSDK (= 3.11.0)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - IDnowSDK
+    - libPhoneNumber-iOS
+    - Masonry
+    - SocketRocket
+
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   IDnowSDK: ebb6d369979f437c7049d40aebaf4eb1dadbed7e
@@ -36,4 +44,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 46f8f65b170ed193d95fd6bf0cec72a00d0461eb
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
