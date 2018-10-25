@@ -69,14 +69,18 @@ platform :ios do
     puts "new build number: #{newBuildNumber} new version #{newVersionNumber}"
     git_add
     git_commit(path: ".", message: "Increase version to #{newVersionNumber}.#{newBuildNumber}")
+    puts "Create tag"
+    add_git_tag(
+      tag: "#{newVersionNumber}.#{newBuildNumber}"
+    )
     push_to_git_remote(
       remote: "origin",         # optional, default: "origin"
       #local_branch: "develop",  # optional, aliased by "branch", default: "master"
       remote_branch: "master", # optional, default is set to local_branch
       #force: true,    # optional, default: false
       #force_with_lease: true,   # optional, default: false
-      #tags: false     # optional, default: true
+      tags: false     # optional, default: true
     )
-    
+    #push_git_tags
   end
 end
