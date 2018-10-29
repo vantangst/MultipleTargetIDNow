@@ -16,12 +16,60 @@
 default_platform(:ios)
 
 platform :ios do
+
+  # parameter:
+  # - build_number:(option) set a specific number. if not input is auto increase 1 unit, 
+  # - is_push_to_repo:(option) true or false // true = allow  commit all the change and push to repository; default is false
+  # - is_create_tag:(option) true or false // true = allow reate tag and push to repository; default is false
+  # - branch: commit and create tag after increase version; default is master
+  lane :IncreaseBuildNumber do |options|
+    oldBuildNumber = get_build_number
+    oldVersionNumber = get_version_number(target: "MultipleTargetC")
+    puts "Old build number: #{oldBuildNumber} old version #{oldVersionNumber}"
+    if options[:build_number].nil?
+        puts "Increase build number by default: automatically increment by one"
+        increment_build_number # automatically increment by one
+    else
+        puts "Increase build number: set a specific number"
+        increment_build_number(
+          build_number: options[:build_number] # set a specific number
+        )
+    end
+    # commit code to git
+    branch_push = "master"
+    if !options[:branch].nil?
+      branch_push = options[:branch]
+    end
+    newBuildNumber = get_build_number
+    newVersionNumber = get_version_number(target: "MultipleTargetC")
+    puts "new build number: #{newBuildNumber} new version #{newVersionNumber}"
+    if options[:is_push_to_repo]
+      git_add
+      git_commit(path: ".", message: "Increase version to #{newVersionNumber}.#{newBuildNumber}")
+      push_to_git_remote(
+        remote: "origin",         # optional, default: "origin"
+        local_branch: "#{branch_push}",  # optional, aliased by "branch", default: "master"
+        #remote_branch: "", # optional, default is set to local_branch
+        #force: true,    # optional, default: false
+        #force_with_lease: true,   # optional, default: false
+        tags: false     # optional, default: true
+      )
+    end
+    if options[:is_create_tag]
+      puts "Create tag"
+      add_git_tag(
+        tag: "#{newVersionNumber}.#{newBuildNumber}"
+      )
+      push_git_tags
+    end
+  end
+
   # parameter:
   # - bump_type: (option) value area (major, minor, patch) default increase patch number.
   # - version_number: (option) set a specific version number.
-  # - build_number:(option) set a specific number. if not input is auto increase 1 unit, 
-  # - is_increase_build_number: true or false // true = allow  increase build number
-  # - branch: commit or create tag after increase version; default is master
+  # - is_push_to_repo:(option) true or false // true = allow  commit all the change and push to repository; default is false
+  # - is_create_tag:(option) true or false // true = allow reate tag and push to repository; default is false
+  # - branch: commit and create tag after increase version; default is master
   lane :IncreaseVersion do |options|
     oldBuildNumber = get_build_number
     oldVersionNumber = get_version_number(target: "MultipleTargetC")
@@ -61,19 +109,6 @@ platform :ios do
       )
     end
 
-    #Increase build number
-    if options[:is_increase_build_number]
-      if options[:build_number].nil?
-        puts "Increase build number by default: automatically increment by one"
-        increment_build_number # automatically increment by one
-      else
-        puts "Increase build number: set a specific number"
-        increment_build_number(
-          build_number: options[:build_number] # set a specific number
-        )
-      end
-    end
-
     # commit code to git
     branch_push = "master"
     if !options[:branch].nil?
@@ -82,20 +117,25 @@ platform :ios do
     newBuildNumber = get_build_number
     newVersionNumber = get_version_number(target: "MultipleTargetC")
     puts "new build number: #{newBuildNumber} new version #{newVersionNumber}"
-    git_add
-    git_commit(path: ".", message: "Increase version to #{newVersionNumber}.#{newBuildNumber}")
-    push_to_git_remote(
-      remote: "origin",         # optional, default: "origin"
-      local_branch: "#{branch_push}",  # optional, aliased by "branch", default: "master"
-      #remote_branch: "", # optional, default is set to local_branch
-      #force: true,    # optional, default: false
-      #force_with_lease: true,   # optional, default: false
-      tags: false     # optional, default: true
-    )
-    puts "Create tag"
-    add_git_tag(
-      tag: "#{newVersionNumber}.#{newBuildNumber}"
-    )
-    push_git_tags
+    if options[:is_push_to_repo]
+      git_add
+      git_commit(path: ".", message: "Increase version to #{newVersionNumber}.#{newBuildNumber}")
+      push_to_git_remote(
+        remote: "origin",         # optional, default: "origin"
+        local_branch: "#{branch_push}",  # optional, aliased by "branch", default: "master"
+        #remote_branch: "", # optional, default is set to local_branch
+        #force: true,    # optional, default: false
+        #force_with_lease: true,   # optional, default: false
+        tags: false     # optional, default: true
+      )
+    end
+    if options[:is_create_tag]
+      puts "Create tag"
+        add_git_tag(
+          tag: "#{newVersionNumber}.#{newBuildNumber}"
+        )
+        push_git_tags
+    end
   end
+
 end

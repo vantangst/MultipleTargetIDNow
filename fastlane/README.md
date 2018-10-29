@@ -16,6 +16,11 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
+### ios IncreaseBuildNumber
+```
+fastlane ios IncreaseBuildNumber
+```
+
 ### ios IncreaseVersion
 ```
 fastlane ios IncreaseVersion
